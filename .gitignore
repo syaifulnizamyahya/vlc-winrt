@@ -1,0 +1,63 @@
+#ignore thumbnails created by windows
+Thumbs.db
+
+#Ignore files build by Visual Studio
+*.obj
+*.exe
+*.pdb
+*.user
+*.aps
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.ipch
+*.bak
+*.cache
+*.ilk
+*.log
+*.sdf
+*.opensdf
+*.opendb
+*.ncrunchsolution
+*.ncrunchproject
+*.pfx
+AppPackages/
+[Bb]in
+[Dd]ebug*/
+*.sbr
+obj/
+[Rr]elease*/
+_ReSharper*/
+[Tt]est[Rr]esult*
+*.orig
+*.vspx
+*.psess
+build/packages
+build/VLC_WINRT.sln.DotSettings
+*dll
+*.stackdump
+build/ui/plugins/access/libaccess_winrt_plugin.dll
+build/ui/plugins/video_output/libdirect2d_winrt_plugin.dll
+build/ui/plugins/audio_output/libxaudio2_winrt_plugin.dll
+universal/VLC.Universal/BundleArtifacts
+universal/VLC.Universal/Package.StoreAssociation.xml
+universal/VLC.Universal/ApplicationInsights.config
+universal/packages/
+build/VLC.VC.db
+
+# VLC files
+vlc/plugins/
+vlc/plugins/plugins.dat
+
+#Store association
+build/ui/Package.StoreAssociation.xml
+
+#mac stuff
+.DS_Store
+
+project.lock.json
